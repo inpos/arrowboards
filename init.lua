@@ -93,6 +93,7 @@ for k,v in ipairs(modes) do
 		groups = {not_in_creative_inventory=1},
 		tiles = {"arrowboards_bg.png^[transformFY","arrowboards_bg.png","arrowboards_bg.png","arrowboards_bg.png","arrowboards_bg.png",v.texture},
 		drawtype = "nodebox",
+		light_source = 4,
 		node_box = {
 			type = "fixed",
 			fixed = {
@@ -118,6 +119,7 @@ minetest.register_node("arrowboards:base",{
 	tiles = {"arrowboards_base.png"},
 	inventory_image = "arrowboards_inv.png",
 	drawtype = "nodebox",
+	light_source = 4,
 	node_box = {
 		type = "fixed",
 		fixed = {
