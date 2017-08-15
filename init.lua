@@ -6,7 +6,7 @@ local modes = {
 	},
 	{
 		name = "flashing_arrow_right",
-		desc = "Flashing Right Arrow",
+		desc = "Мигающая стрелка вправо",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow3.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -14,7 +14,7 @@ local modes = {
 	},
 	{
 		name = "flashing_arrow_left",
-		desc = "Flashing Left Arrow",
+		desc = "Мигающая стрелка влево",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow3.png^[transformFX",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -22,7 +22,7 @@ local modes = {
 	},
 	{
 		name = "flashing_arrow_dual",
-		desc = "Flashing Dual Arrow",
+		desc = "Мигающая двунаправленная стрелка",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_dualarrow.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -30,7 +30,7 @@ local modes = {
 	},
 	{
 		name = "seq_arrow_right",
-		desc = "Sequential Right Arrow",
+		desc = "Бегущая стрелка вправо",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow1.png:0,128=arrowboards_bg.png:0,128=arrowboards_arrow2.png:0,192=arrowboards_bg.png:0,192=arrowboards_arrow3.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -38,7 +38,7 @@ local modes = {
 	},
 	{
 		name = "seq_arrow_left",
-		desc = "Sequential Left Arrow",
+		desc = "Бегущая стрелка влево",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow1.png:0,128=arrowboards_bg.png:0,128=arrowboards_arrow2.png:0,192=arrowboards_bg.png:0,192=arrowboards_arrow3.png^[transformFX",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -46,7 +46,7 @@ local modes = {
 	},
 	{
 		name = "seq_chevron_right",
-		desc = "Sequential Right Chevron",
+		desc = "Бегущий шеврон вправо",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_chevron1.png:0,128=arrowboards_bg.png:0,128=arrowboards_chevron2.png:0,192=arrowboards_bg.png:0,192=arrowboards_chevron3.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -54,7 +54,7 @@ local modes = {
 	},
 	{
 		name = "seq_chevron_left",
-		desc = "Sequential Left Chevron",
+		desc = "Бегущий шеврон влево",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_chevron1.png:0,128=arrowboards_bg.png:0,128=arrowboards_chevron2.png:0,192=arrowboards_bg.png:0,192=arrowboards_chevron3.png^[transformFX",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -62,7 +62,7 @@ local modes = {
 	},
 	{
 		name = "flashing_caution_corners",
-		desc = "Flashing Caution (four corners)",
+		desc = "Мигающее предупреждение (4 угла)",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_caution1.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -70,7 +70,7 @@ local modes = {
 	},
 	{
 		name = "flashing_caution_line",
-		desc = "Flashing Caution (horizontal line)",
+		desc = "Мигающее предупреждение (горизонтальная линия)",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_caution2.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -78,7 +78,7 @@ local modes = {
 	},
 	{
 		name = "alternating_diamond_caution",
-		desc = "Alternating Diamond Caution",
+		desc = "Чередующееся алмазное предупреждение",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_caution3.png:0,64=arrowboards_bg.png:0,64=(arrowboards_caution3.png^[transformFX)",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
