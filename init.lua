@@ -112,7 +112,7 @@ for k,v in ipairs(modes) do
 end
 
 minetest.register_node("arrowboards:base",{
-	description = "Arrow Board",
+	description = "Указатель",
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {dig_immediate=2},
@@ -177,14 +177,14 @@ minetest.register_node("arrowboards:base",{
 		local placername = placer:get_player_name()
 		if topnode.name ~= "air" then
 			if placer:is_player() then
-				minetest.chat_send_player(placername,"Can't place arrow board - no room for the top half!")
+				minetest.chat_send_player(placername,"Невозможно установить указатель - нет места для верхней половины!")
 			end
 			minetest.set_node(pos,{name="air"})
 			return true
 		end
 		if minetest.is_protected(toppos,placername) and not minetest.check_player_privs(placername,{protection_bypass=true}) then
 			if placer:is_player() then
-				minetest.chat_send_player(placername,"Can't place arrow board - top half is protected!")
+				minetest.chat_send_player(placername,"Невозможно установить указатель - верхняя половина защищена!")
 				minetest.record_protection_violation(toppos,placername)
 			end
 			minetest.set_node(pos,{name="air"})
