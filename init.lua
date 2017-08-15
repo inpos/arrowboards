@@ -131,7 +131,7 @@ minetest.register_node("arrowboards:base",{
 	selection_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5,-0.5,-0.5,0.5,-0.25,0.5}, --Base
+			{-0.5,-0.5,-0.5,0.5,-0.50,0.5}, --Base
 			{-0.5,-0.25,-0.5,0.5,1.5,-0.4}, -- The Rest
 		},
 	},
