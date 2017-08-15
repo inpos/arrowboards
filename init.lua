@@ -6,7 +6,7 @@ local modes = {
 	},
 	{
 		name = "flashing_arrow_right",
-		desc = "Мигающая стрелка вправо",
+		desc = "Мигающ. стрел. вправо",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow3.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -14,7 +14,7 @@ local modes = {
 	},
 	{
 		name = "flashing_arrow_left",
-		desc = "Мигающая стрелка влево",
+		desc = "Мигающ. стрел. влево",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow3.png^[transformFX",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -22,7 +22,7 @@ local modes = {
 	},
 	{
 		name = "flashing_arrow_dual",
-		desc = "Мигающая двунаправленная стрелка",
+		desc = "Мигающ. двунаправ. стрел.",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_dualarrow.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -30,7 +30,7 @@ local modes = {
 	},
 	{
 		name = "seq_arrow_right",
-		desc = "Бегущая стрелка вправо",
+		desc = "Бегущ. стрел. вправо",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow1.png:0,128=arrowboards_bg.png:0,128=arrowboards_arrow2.png:0,192=arrowboards_bg.png:0,192=arrowboards_arrow3.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -38,7 +38,7 @@ local modes = {
 	},
 	{
 		name = "seq_arrow_left",
-		desc = "Бегущая стрелка влево",
+		desc = "Бегущ. стрел. влево",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_arrow1.png:0,128=arrowboards_bg.png:0,128=arrowboards_arrow2.png:0,192=arrowboards_bg.png:0,192=arrowboards_arrow3.png^[transformFX",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -46,7 +46,7 @@ local modes = {
 	},
 	{
 		name = "seq_chevron_right",
-		desc = "Бегущий шеврон вправо",
+		desc = "Бегущ. шеврон вправо",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_chevron1.png:0,128=arrowboards_bg.png:0,128=arrowboards_chevron2.png:0,192=arrowboards_bg.png:0,192=arrowboards_chevron3.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -54,7 +54,7 @@ local modes = {
 	},
 	{
 		name = "seq_chevron_left",
-		desc = "Бегущий шеврон влево",
+		desc = "Бегущ. шеврон влево",
 		texture = {
 			name = "[combine:64x256:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_chevron1.png:0,128=arrowboards_bg.png:0,128=arrowboards_chevron2.png:0,192=arrowboards_bg.png:0,192=arrowboards_chevron3.png^[transformFX",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 3},
@@ -62,7 +62,7 @@ local modes = {
 	},
 	{
 		name = "flashing_caution_corners",
-		desc = "Мигающее предупреждение (4 угла)",
+		desc = "Мигающ. предупр. (4 угла)",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_caution1.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -70,7 +70,7 @@ local modes = {
 	},
 	{
 		name = "flashing_caution_line",
-		desc = "Мигающее предупреждение (горизонтальная линия)",
+		desc = "Мигающ. предупр. (линия)",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_off.png:0,64=arrowboards_bg.png:0,64=arrowboards_caution2.png",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
@@ -131,7 +131,7 @@ minetest.register_node("arrowboards:base",{
 	selection_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5,-0.5,-0.5,0.5,-0.50,0.5}, --Base
+			{-0.5,-0.5,-0.5,0.5,-0.25,0.5}, --Base
 			{-0.5,-0.25,-0.5,0.5,1.5,-0.4}, -- The Rest
 		},
 	},
