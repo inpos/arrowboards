@@ -78,7 +78,7 @@ local modes = {
 	},
 	{
 		name = "alternating_diamond_caution",
-		desc = "Чередующееся алмазное предупреждение",
+		desc = "Семафор",
 		texture = {
 			name = "[combine:64x128:0,0=arrowboards_bg.png:0,0=arrowboards_caution3.png:0,64=arrowboards_bg.png:0,64=(arrowboards_caution3.png^[transformFX)",
 			animation = {type = "vertical_frames", aspect_w = 64, aspect_h = 64, length = 1.5},
